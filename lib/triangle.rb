@@ -19,7 +19,7 @@ class Triangle
   end
   
   def valid_triangle
-    if x + y > z || x + z > y || y + z > x  
+    if x + y > z || x + z > y || y + z > x  && x, y, z > 0
       true 
     else
       
