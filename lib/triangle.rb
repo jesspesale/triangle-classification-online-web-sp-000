@@ -19,14 +19,17 @@ class Triangle
   end
   
   def valid_triangle
-end
+    if x + y > z || x + z > y || y + z > x  
+      
+  end
 
 
   class TriangleError < StandardError
+  end
   
 end
 
-    # elsif x + y > z || x + z > y || y + z > x  
+    # elsif 
   # else
   #   puts "theres an error"
   # end
